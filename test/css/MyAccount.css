@@ -12,7 +12,8 @@ html,body{
     flex-direction: column;
 
     margin-left: 200px;
-    width: 1024px;
+    margin-top: 85px;
+    width: 80%;
     height: 100%;
 
     background-color: white;      
@@ -35,12 +36,18 @@ html,body{
 .user-image{
     width: 150px;
 }
-p{  
+.user-introduce {
+    width: 100%;
+    padding: 12px 0px 12px 0px;
+    justify-content: center;
+}
+
+.user-introduce p{  
     margin: 1%;
     width: 100%;
 
     justify-content: center;
-    align-items: center;
+    align-items: left;
 
 }
 .saved-money{
@@ -82,7 +89,7 @@ p{
 
     border-left: 1px solid gray;
 }
-.s-m-l-m-b-button{
+.smlmb-button{
     border: 0;
     
     cursor: pointer;
